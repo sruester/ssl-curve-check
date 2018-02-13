@@ -107,6 +107,7 @@ int main()
 {
     std::ifstream hostlist("/tmp/hostlist");
     std::string line;
+
     while(std::getline(hostlist, line))
     {
         hosts.push(line);
